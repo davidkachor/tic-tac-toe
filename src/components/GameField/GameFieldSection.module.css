@@ -1,0 +1,24 @@
+.game-field__section {
+    background-color: #ade8f4;
+    margin: 10px;
+    border-radius: 15px;
+    transition: all ease-in-out .1s;
+}
+
+@media (max-width: 500px) {
+    .game-field__section{
+        margin: 5px;
+    }
+}
+
+.__free-section:hover {
+    background-color: #e7f7fa;
+    cursor: pointer;
+}
+
+.section-with-circle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

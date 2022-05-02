@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Roboto:wght@700&display=swap');
+
+.btn {
+    width: 100px;
+    height: 60px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #2a6f97;
+    color: #ade8f4;
+    transition: all ease-in-out .1s;
+}
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: gray 5px 5px 15px;
+}
+
+.btn:disabled {
+    background-color: #9aa9be;
+    color: #525160;
+}
+
+.btn:disabled:hover {
+    transform: none;
+    box-shadow: none;
+}
